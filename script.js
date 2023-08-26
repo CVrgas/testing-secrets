@@ -5,7 +5,7 @@ const test = "success";
 
 button.addEventListener("click", () => {
 	console.log("init");
-	if (test) {
+	if (test === "success") {
 		output.innerText = "success";
 	}
 });
